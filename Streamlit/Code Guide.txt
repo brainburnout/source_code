@@ -1,0 +1,8 @@
+# Sebelum menjalankan program, download library-library berikut terlebih dahulu:
+pip install numpy pandas streamlit plotly
+pip install darts==0.31.0
+pip install dask[dataframe]
+pip install --force-reinstall kaleido==0.1.0post1
+
+# Untuk menjalankan program:
+streamlit run Home.py
