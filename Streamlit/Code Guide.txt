@@ -1,0 +1,9 @@
+# Sebelum menjalankan program, download library-library berikut terlebih dahulu:
+pip install numpy pandas streamlit plotly
+pip install darts==0.31.0
+pip install dask[dataframe]
+pip install --force-reinstall kaleido==0.1.0post1
+
+# Untuk menjalankan program:
+1. Masukkan API Key Chat GPT milikmu di assets/credentials.json
+2. Jalankan kode ini di terminal: streamlit run Home.py
